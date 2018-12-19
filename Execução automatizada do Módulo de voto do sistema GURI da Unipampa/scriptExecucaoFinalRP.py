@@ -34,7 +34,7 @@ def executa(tipoUsuario):
 		driver.get("http://localhost/sistema/sistemaVoto/votacao/esperamod")
 		time.sleep(1)
 		driver.get("http://localhost/sistema/sistemaVoto/votacao/esperamod")
-		content = driver.find_element_by_class_name('btn btn-success').click()
+		driver.find_element_by_xpath('/html/body/div[2]/form/input[3]').click()
 		time.sleep(10)
 		driver.close()
 		
@@ -53,7 +53,7 @@ def executa(tipoUsuario):
 		alert = driver.switch_to_alert()
 		alert.accept()
 		time.sleep(2)
-		driver.find_element_by_xpath("//input[@value='Abstenção']").click()
+		driver.find_element_by_xpath("//input[@value='Abstencao']").click()
 		time.sleep(2)
 		driver.find_element_by_id('bt_votar').click()
 		time.sleep(2)
