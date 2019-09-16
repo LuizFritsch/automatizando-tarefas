@@ -4,6 +4,10 @@ Primeiramente nós criamos um formulário online (Google forms) para inscrição
 Após, geramos um csv contendo todos os dados. Um dia antes de cada evento, nós enviamos mensagens lembrando sobre o curso e repassando informações para todos os inscritos.
 Como a maioria dos inscritos nós não temos na agenda do telefone, viu-se necessário automatizar este processo.
 
+
+Com esse script você pode:
+* Enviar mensagens automatizadas por WhatsApp para múltiplas pessoas sem ter contantos salvos.
+
 # Instruções
 1. Clone o projeto: 
 ```console
